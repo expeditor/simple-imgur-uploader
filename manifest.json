@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "author": "expeditor",
+  "homepage_url": "https://github.com/expeditor/simple-imgur-uploader",
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "description": "Easily transfer images to Imgur through a right-click menu.",
+   "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+   },
+   "minimum_chrome_version": "31",
+   "name": "Simple Imgur Uploader",
+   "permissions": ["contextMenus" ],
+   "version": "1.0"
+}
